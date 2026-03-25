@@ -1,0 +1,16 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.vs/
+bin/
+obj/
+*.user
+*.suo
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
