@@ -34,15 +34,18 @@ public class Correo {
                         x++;
 
                         break;
+                        
                     case "ucn.cl":
                         System.out.println();
                         System.out.println("¡Bienvenido " + nombre + "! Acceso a plataforma docente");
                         x++;
 
                         break;
+
                     default:
                         System.out.println();
                         System.out.println("Acceso denegado, intente nuevamente");
+
                         break;
                 }
 
