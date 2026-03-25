@@ -1,8 +1,8 @@
 package ayudantia2;
 
-import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
@@ -37,7 +37,7 @@ public class Main {
 					String nombre = String.valueOf(sc.nextLine());
 					
 					try {
-						File arch = new File("archivos/"+nombre+".txt");
+						File arch = new File("uni/ayudantia2/archivos/"+nombre+".txt");
 						Scanner Sarch = new Scanner(arch);
 					
 						while(Sarch.hasNextLine()) {
