@@ -49,7 +49,7 @@ public class Miku {
         }
 
         System.out.println("Miku tardaria " + dias + " dias en tener " + total + " UEM, con " + completo + " completos, "+
-        "le sobrarian " + (total - uemBase) + " UEM de las " + uemBase + " necesarios");
+        "le sobrarian " + (total - uemBase) + " UEM de las " + uemBase + " necesarias");
 
         sc.close();
     }
